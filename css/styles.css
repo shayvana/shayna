@@ -1,0 +1,127 @@
+body {
+    font-family: 'FinkHeavy', 'Comic Sans MS', cursive;
+    background-color: #E6F3FF;
+    color: #7A5C3E;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-image: url('https://t3.ftcdn.net/jpg/04/24/35/90/360_F_424359069_3TaRVYf7W45K31KHsGIIec6PVFXJ5rAz.jpg');
+    background-repeat: repeat;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #FFF9E5;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(122, 92, 62, 0.3);
+    border: 5px solid #E6C88E;
+}
+
+h1 {
+    color: #E86A17;
+    text-align: center;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 0px #FFD68A;
+}
+
+h2 {
+    color: #4A8F30;
+    border-bottom: 2px dashed #7A5C3E;
+    padding-bottom: 5px;
+}
+
+a {
+    color: #4A8F30;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #E86A17;
+    text-decoration: underline;
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 20px auto;
+    object-fit: cover;
+    border: 8px solid #FFD68A;
+    box-shadow: 0 0 10px rgba(122, 92, 62, 0.5);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 15px;
+    background-color: #FFE9B3;
+    padding: 10px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+li:hover {
+    background-color: #FFD68A;
+}
+
+.leaf-decoration {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-image: url('../images/Green Leaf Icon.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+nav ul li {
+    background-color: #FFE9B3;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li:hover {
+    background-color: #FFD68A;
+}
+
+.project-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.project-list li {
+    background-color: #FFE9B3;
+    padding: 15px;
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-list li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(122, 92, 62, 0.2);
+}
+
+.project-list h3 {
+    margin-top: 0;
+    color: #E86A17;
+}
+
+.project-list p {
+    font-size: 0.9em;
+    margin-bottom: 0;
+}

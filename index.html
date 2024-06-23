@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shayna provine</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="leaf-decoration" style="top: 10%; left: 5%;"></div>
+    <div class="leaf-decoration" style="top: 30%; right: 10%;"></div>
+    <div class="leaf-decoration" style="bottom: 15%; left: 15%;"></div>
+    
+    <div class="container">
+        <h1>✿ shayna provine ✿</h1>
+        
+        <img src="images/me.png" alt="Shayna Provine" class="profile-img">
+        
+        <section id="about-me">
+            <h2>about me</h2>
+            <p>techno-optimist invested in infrastructure as code, data, and philosophy.</p>
+            
+            <p>crafting data solutions at five star transportation, building comprehensive warehouse management applications for smarter decision-making. i love python, sql, and aws, and i love combining these tools to create data pipelines that bring real-time insights to life.</p>
+            
+            <p>data as a tool for truth-seeking and one aspect of an overarching dedication to working towards the good. interested in the intersection of the soft and the hard, the philosophical and ethical dimensions of computing, navigating the blurred lines between reality and the wired.</p>
+            <p> committed to building and loving infrastructure thats efficient, ethical, sustainable, and scalable.</p>
+        </section>
+        
+        <h2>nav</h2>
+        <ul>
+            <li><a href="projects.html">🌟 projects</a></li>
+            <li><a href="favorite-things.html">🌸 my favorite things</a></li>
+            <li><a href="https://read.cv/shayvana">📜 cv</a></li>
+            <li><a href="https://ttwpa.bearblog.dev/">📝 blog</a></li>
+        </ul>
+        
+        <h2 id="currently-reading">currently reading</h2>
+        <p>• designing data-intensive applications</p>
+        <p>• data compression explained</p>
+        <p>• computational philosophy</p>
+    </div>
+    
+    <script>
+        document.querySelectorAll('.leaf-decoration').forEach(leaf => {
+            leaf.style.transform = `rotate(${Math.random() * 360}deg)`;
+        });
+    </script>
+</body>
+</html>

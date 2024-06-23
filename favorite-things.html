@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shayna's Favorite Things</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/favorite-things.css">
+</head>
+<body>
+    <div class="leaf-decoration" style="top: 10%; left: 5%;"></div>
+    <div class="leaf-decoration" style="top: 30%; right: 10%;"></div>
+    <div class="leaf-decoration" style="bottom: 15%; left: 15%;"></div>
+    
+    <div class="container">
+        <h1>✿ my favorite things ✿</h1>
+        
+        <nav>
+            <ul>
+                <li><a href="index.html">🏠 home</a></li>
+                <li><a href="projects.html">🌟 projects</a></li>
+                <li><a href="favorite-things.html">🌸 my favorite things</a></li>
+                <li><a href="https://read.cv/shayvana">📜 cv</a></li>
+                <li><a href="https://ttwpa.bearblog.dev/">📝 blog</a></li>
+            </ul>
+        </nav>
+
+        <div class="folder-container">
+            <div class="folder" data-folder="ocean">🌊 Ocean</div>
+            <div class="folder" data-folder="books">📚 Books</div>
+            <div class="folder" data-folder="games">🎮 Games</div>
+        </div>
+
+        <div class="pokedex-grid">
+            <div class="pokedex-item" data-id="1">
+                <img src="path_to_image1.jpg" alt="Favorite Thing 1">
+                <h3>Favorite Thing 1</h3>
+                <p class="short-desc">Short description here...</p>
+                <p class="full-desc" style="display:none;">Full description here...</p>
+            </div>
+            <div class="pokedex-item" data-id="2">
+                <img src="path_to_image2.jpg" alt="Favorite Thing 2">
+                <h3>Favorite Thing 2</h3>
+                <p class="short-desc">Short description here...</p>
+                <p class="full-desc" style="display:none;">Full description here...</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="folder-popup" class="popup">
+        <div class="popup-content">
+            <span class="close-btn">&times;</span>
+            <h2 id="popup-title"></h2>
+            <div id="popup-grid"></div>
+        </div>
+    </div>
+
+    <script src="js/favorite-things.js"></script>
+</body>
+</html>
