@@ -1,5 +1,19 @@
 @import 'garden-scene.css';
 
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+}
+
 body {
     font-family: 'FinkHeavy', 'Comic Sans MS', cursive;
     background-color: #E6F3FF;
