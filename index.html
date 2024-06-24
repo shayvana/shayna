@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>shayna provine</title>
+    <title>my happy place</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="sucrose.ico" type="image/x-icon">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 </head>
 <body>
     <div class="leaf-decoration" style="top: 10%; left: 5%;"></div>
@@ -14,7 +16,7 @@
     <div class="container">
         <h1>✿ shayna provine ✿</h1>
         
-        <img src="images/me.png" alt="Shayna Provine" class="profile-img">
+        <div id="garden-scene"></div>
         
         <section id="about-me">
             <h2>about me</h2>
@@ -35,10 +37,12 @@
         </ul>
         
         <h2 id="currently-reading">currently reading</h2>
-        <p>• designing data-intensive applications</p>
-        <p>• data compression explained</p>
-        <p>• computational philosophy</p>
+        <p>• <a href="https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/">designing data-intensive applications</a></p>
+        <p>• <a href="https://mattmahoney.net/dc/dce.html">data compression explained</a></p>
+        <p>• <a href="https://plato.stanford.edu/entries/computational-philosophy/">computational philosophy</a></p>
     </div>
+    <script src="js/script.js"></script>
+    <script src="js/garden-scene.js"></script>
     
     <script>
         document.querySelectorAll('.leaf-decoration').forEach(leaf => {

@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shayna's Favorite Things</title>
+    <title>i am what i love</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/favorite-things.css">
+    <link rel="icon" href="sucrose.ico" type="image/x-icon">
 </head>
 <body>
     <div class="leaf-decoration" style="top: 10%; left: 5%;"></div>
@@ -14,7 +15,7 @@
     
     <div class="container">
         <h1>✿ my favorite things ✿</h1>
-        
+
         <nav>
             <ul>
                 <li><a href="index.html">🏠 home</a></li>
@@ -25,26 +26,44 @@
             </ul>
         </nav>
 
-        <div class="folder-container">
-            <div class="folder" data-folder="ocean">🌊 Ocean</div>
-            <div class="folder" data-folder="books">📚 Books</div>
-            <div class="folder" data-folder="games">🎮 Games</div>
-        </div>
+        <section id="external-lists">
+            <h2>lists and lists and lists</h2>
+            <ul>
+                <li><a href="https://myanimelist.net/profile/shayvana">myanimelist</a></li>
+                <li><a href="https://www.are.na/shayna/channels">are.na</a></li>
+                <li><a href="https://ttwpa.bearblog.dev/eeeeeeee/">eeeeeeee</a></li>
+            </ul>
+        </section>
 
-        <div class="pokedex-grid">
-            <div class="pokedex-item" data-id="1">
-                <img src="path_to_image1.jpg" alt="Favorite Thing 1">
-                <h3>Favorite Thing 1</h3>
-                <p class="short-desc">Short description here...</p>
-                <p class="full-desc" style="display:none;">Full description here...</p>
+        <section id="folder-container">
+            <h2>photos</h2>
+            <div class="folders">
+                <div class="folder" data-folder="anime" data-images="anime1.jpg,anime2.jpg,anime3.jpg">
+                    <span class="folder-icon">🗂️</span>
+                    <span class="folder-name">anime</span>
+                </div>
+                <div class="folder" data-folder="games" data-images="game1.jpg,game2.png,game3.jpg,game4.jpg">
+                    <span class="folder-icon">🗂️</span>
+                    <span class="folder-name">games</span>
+                </div>
+                <div class="folder" data-folder="hawaii" data-images="hawaii1.png,hawaii2.png,hawaii3.png,hawaii9.png,hawaii4.png,hawaii5.png,hawaii6.png,hawaii7.png,hawaii8.png">
+                    <span class="folder-icon">🗂️</span>
+                    <span class="folder-name">hawaii</span>
+                </div>
+                <div class="folder" data-folder="lain" data-images="lain1.png,lain2.png,lain3.png">
+                    <span class="folder-icon">🗂️</span>
+                    <span class="folder-name">lain</span>
+                </div>
+                <div class="folder" data-folder="movies" data-images="movie1.png,movie2.png,movie3.png">
+                    <span class="folder-icon">🗂️</span>
+                    <span class="folder-name">movies</span>
+                </div>
+                <div class="folder" data-folder="monsters" data-images="monster1.png,monster2.png,monster3.png,monster4.png">
+                    <span class="folder-icon">🗂️</span>
+                    <span class="folder-name">monsters</span>
+                </div>
             </div>
-            <div class="pokedex-item" data-id="2">
-                <img src="path_to_image2.jpg" alt="Favorite Thing 2">
-                <h3>Favorite Thing 2</h3>
-                <p class="short-desc">Short description here...</p>
-                <p class="full-desc" style="display:none;">Full description here...</p>
-            </div>
-        </div>
+        </section>
     </div>
 
     <div id="folder-popup" class="popup">
